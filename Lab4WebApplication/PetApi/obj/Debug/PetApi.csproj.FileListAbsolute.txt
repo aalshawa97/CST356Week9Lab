@@ -19,3 +19,5 @@ C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\
 C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\Debug\PetApi.csproj.CoreCompileInputs.cache
 C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\Debug\PetApi.dll
 C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\Debug\PetApi.pdb
+C:\Users\abdullah.alshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\Debug\PetApi.csprojResolveAssemblyReference.cache
+C:\Users\abdullah.alshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\PetApi\obj\Debug\PetApi.csproj.CoreCompileInputs.cache
