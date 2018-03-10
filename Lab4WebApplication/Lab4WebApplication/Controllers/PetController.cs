@@ -18,6 +18,14 @@ namespace Lab4WebApplication.Controllers
             _petService = petService;
         }
 
+        public ActionResult Index()
+        {
+          ViewData["Message"] = "Welcome To Pets!";
+
+          return View();
+        }
+
+
         public ActionResult List()
         {
             var userId = User.Identity.GetUserId();
