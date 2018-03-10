@@ -24,7 +24,7 @@ namespace Lab4WebApplication.App_Start
             // Register your types, for instance:
             container.Register<IPetRepository, PetRepository>(Lifestyle.Scoped);
             container.Register<IPetService, PetService>(Lifestyle.Scoped);
-            container.Register<AppDbContext, AppDbContext>(Lifestyle.Scoped);
+            container.Register<Models.AppDbContext, Models.AppDbContext>(Lifestyle.Scoped);
 
             //            container.Register<IUserStore<ApplicationUser>>(() => new UserStore<ApplicationUser>());
 
