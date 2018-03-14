@@ -30,6 +30,22 @@ namespace Lab4WebApplication.Controllers
         {
             var userId = User.Identity.GetUserId();
 
+            var petViewModelsView = new List<PetViewModel>();
+            PetViewModel petViewModel = new PetViewModel();
+            //Generate a default list of pets
+            if (User.Identity.GetUserId() == null)
+            {
+                petViewModel.Id = 0;
+                petViewModel.Name = "Jif";
+                petViewModel.Age = 18;
+                petViewModel.NextCheckup = DateTime.Now;
+                petViewModel.VetName = "Doc";
+
+                petViewModelsView.Insert(0,petViewModel);
+
+                return View(petViewModelsView);
+            }
+
             _log.Debug("Getting list of pets for user: " + userId);
 
             var petViewModels = _petService.GetPetsForUser(userId);
