@@ -4,6 +4,7 @@ using log4net;
 using Microsoft.AspNet.Identity;
 using Lab4WebApplication.Models.View;
 using Lab4WebApplication.Services;
+using System.Collections.Generic;
 
 namespace Lab4WebApplication.Controllers
 {
