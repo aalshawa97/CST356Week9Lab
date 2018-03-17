@@ -1,2 +1,4 @@
 C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\HttpClientSample\obj\Debug\HttpClientSample.csprojResolveAssemblyReference.cache
 C:\Users\aalshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\HttpClientSample\obj\Debug\HttpClientSample.csproj.CoreCompileInputs.cache
+C:\Users\abdullah.alshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\HttpClientSample\obj\Debug\HttpClientSample.csprojResolveAssemblyReference.cache
+C:\Users\abdullah.alshawa\Documents\GitHub\CST356Week9Lab\Lab4WebApplication\HttpClientSample\obj\Debug\HttpClientSample.csproj.CoreCompileInputs.cache

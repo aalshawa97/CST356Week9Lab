@@ -23,4 +23,5 @@ namespace Lab4WebApplication.Data
     {
         // intentionally left blank
     }
+    
 }

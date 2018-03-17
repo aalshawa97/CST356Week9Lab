@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using Lab4WebApplication.Data.Entities;
 using Lab4WebApplication.Data;
+using Lab4WebApplication.Models;
 
 namespace PetApi.Controllers
 {

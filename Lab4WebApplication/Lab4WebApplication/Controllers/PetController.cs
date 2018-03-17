@@ -8,7 +8,6 @@ using System.Collections.Generic;
 
 namespace Lab4WebApplication.Controllers
 {
-    [Authorize]
     public class PetController : Controller
     {
         private readonly IPetService _petService;
@@ -26,7 +25,7 @@ namespace Lab4WebApplication.Controllers
           return View();
         }
 
-
+        [HttpGet]
         public ActionResult List()
         {
             var userId = User.Identity.GetUserId();
